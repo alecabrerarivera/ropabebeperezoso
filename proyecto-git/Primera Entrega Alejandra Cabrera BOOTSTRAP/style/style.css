@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+  list-style-type: none;  
+}
+
+:root{
+    font-size: 16px;
+}
+
+/*HEADER*/
+header{
+    background-color:white ;
+    color:rgb(30, 157, 236);   
+    padding: 15px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+header nav{
+    width:60%;
+         
+}
+
+header img{
+    max-width: 55px;
+    }
+
+header nav ul{
+display: flex;
+justify-content: space-around;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+/*PORTADA*/
+.hero{
+  height: 65vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__imagen{
+  background: white center / cover no-repeat fixed;
+  max-width: 850px;
+ 
+}
+
+/*CATEGORIAS*/
+
+.contenedorCategoria{
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+            
+}
+
+.tarjeta {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+  
+    border: 2px solid rgb(30, 157, 236);
+    border-radius: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+       
+  }
+  
+  .tarjeta__imagen {
+    max-width: 150px;
+   
+  }
+  
+  .tarjeta__titulo {
+    text-align: center;
+    color: gray; 
+    font: size 1rem ; 
+  }
+
+  /*PRODUCTOS*/
+
+.contenedorProductos{
+    padding: 15px;
+    height: 600px;
+
+    display:flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.producto {
+    min-width: 200px;
+    height: 200px;
+    padding: 10px;
+  
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .producto__imagen {
+    max-width: 150px;
+   
+  }
+  
+  .producto__titulo {
+    text-align: center;
+    color: rgb(30, 157, 236); 
+    text-align: center; 
+    font-size: 0.9rem;
+  }
+
+  .producto__precio{
+    text-align: center;
+    color: rgb(30, 157, 236); 
+    text-align: center; 
+    font-size: 0.9rem;
+  }
+
+/*NOSOTROS*/
+.contenedorNosotros{
+    padding: 15px;
+    height: 600px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nosotros__titulo{
+text-align: left;
+color: gray;
+}
+
+.nosotros__texto{
+text-align: left;
+color: gray;
+}
+
+.nosotros__imagen{
+  max-width: 700px;
+}
+
+/*TABLA PACKS*/
+
+.tabla{
+  
+  width: 50%;
+  color: gray;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.contenedorTabla{
+  height: 300px;
+ }
+
+.tabla__encabezado{
+  font-weight: bold;
+  border: 1px solid;
+  background-color: rgb(30, 157, 236) ;
+  color: white;
+}
+
+.tabla__celdas{
+border: 1px solid;
+text-align: center;
+padding: 10px;
+}
+
+ /*FORM*/
+
+ form{
+  padding: 15px;
+  color: gray;
+ }
+.nombre{
+  padding: 15px;
+}
+
+.correo{
+  padding: 15px;
+}
+
+.numero{
+  padding: 15px;
+}
+
+form a{
+  color: gray;
+}
+
+input[type=text],input[type=email],input[type=tel]{
+  width: 100%;
+  padding: 12px 20px;
+}
+
+
+input[type=submit]{
+  padding: 12px 20px;
+  color:white;
+  background-color:rgb(30, 157, 236);
+  border: none
+}
+
+form a{
+  margin: 30px;
+}
+ /*FOOTER*/
+
+footer{
+    background-color: rgb(30, 157, 236);
+    font-size: 0.8rem;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+          
+}
+
+footer ul li{
+    height: 20px;
+    color: white;
+    margin: 5px;
+
+}
+
+footer ul li a{
+    color: white;
+        
+}
