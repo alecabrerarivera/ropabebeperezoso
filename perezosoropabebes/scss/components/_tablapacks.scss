@@ -1,0 +1,25 @@
+.contenedorTabla{
+    height: 300px;
+   }
+
+.tabla{
+    width: 50%;
+    color: $color-secundario;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    &__encabezado{
+        font-weight: bold;
+        border: 1px solid;
+        background-color: $color-primario ;
+        color: white;
+    }
+    &__celdas{
+        border: 1px solid;
+        text-align: center;
+        padding: 10px;
+    }
+  }

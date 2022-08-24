@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    &:hover{color: $color-tercero
+    }
+}
+
+ul{
+    list-style-type: none;  
+  }

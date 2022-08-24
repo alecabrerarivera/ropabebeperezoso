@@ -1,0 +1,28 @@
+form{
+    padding: 15px;
+    color: $color-secundario;
+    a{
+        color: $color-secundario;
+        margin: 30px;  
+    }
+   }
+.nombre,.correo,.numero{
+    padding: 15px;
+  }
+  
+  
+input[type=text],input[type=email],input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+  }
+    
+input[type=submit]{
+    padding: 12px 20px;
+    color:white;
+    background-color:$color-primario;
+    border: none;
+    &:hover{
+        background-color: $color-secundario
+    }
+  }
+

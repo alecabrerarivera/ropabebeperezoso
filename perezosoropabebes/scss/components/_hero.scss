@@ -1,0 +1,15 @@
+.hero{
+    height: 65vh;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    &__imagen{
+        background: white center / cover no-repeat fixed;
+        width: 85%;
+        padding: 20px;
+        margin: 15px auto;
+    }
+  }

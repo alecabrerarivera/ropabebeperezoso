@@ -1,0 +1,67 @@
+.contenedorCategoria{
+    padding: 15px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap: 10px;
+            
+}
+
+.contenedorCategoriaPag{
+  padding: 40px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 10px;
+          
+}
+
+.tarjeta {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+     
+    border: 2px solid $color-primario;
+    border-radius: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &:hover{
+        transform: scale(0.8);
+    }
+    &__imagen{
+        width: 220px; 
+        height: 220px;
+        object-fit: contain;
+        object-position: center;
+    }
+    &__titulo{
+        text-align: center;
+        color: $color-secundario; 
+        font: size 1rem ; 
+    }
+       
+  }
+
+@media (max-width:966px){
+  .contenedorCategoria{
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+
+  }
+
+  .contenedorCategoriaPag{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+  .tarjeta:hover{
+    transform: none
+  }
+}
