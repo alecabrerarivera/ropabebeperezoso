@@ -23,74 +23,6 @@ ul {
   font-family: "Montserrat", sans-serif;
 }
 
-.hero {
-  height: 65vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  justify-content: center;
-  align-items: center;
-}
-.hero__imagen {
-  background: white center/cover no-repeat fixed;
-  width: 85%;
-  padding: 20px;
-  margin: 15px auto;
-}
-
-.contenedorTabla {
-  height: 300px;
-}
-
-.tabla {
-  width: 50%;
-  color: rgb(168, 171, 173);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  padding: 20px;
-}
-.tabla__encabezado {
-  font-weight: bold;
-  border: 1px solid;
-  background-color: rgb(30, 157, 236);
-  color: white;
-}
-.tabla__celdas {
-  border: 1px solid;
-  text-align: center;
-  padding: 10px;
-}
-
-form {
-  padding: 15px;
-  color: rgb(168, 171, 173);
-}
-form a {
-  color: rgb(168, 171, 173);
-  margin: 30px;
-}
-
-.nombre, .correo, .numero {
-  padding: 15px;
-}
-
-input[type=text], input[type=email], input[type=tel] {
-  width: 100%;
-  padding: 12px 20px;
-}
-
-input[type=submit] {
-  padding: 12px 20px;
-  color: white;
-  background-color: rgb(30, 157, 236);
-  border: none;
-}
-input[type=submit]:hover {
-  background-color: rgb(168, 171, 173);
-}
-
 header {
   background-color: white;
   color: rgb(30, 157, 236);
@@ -296,6 +228,74 @@ footer ul li {
 }
 footer a {
   color: white;
+}
+
+.hero {
+  height: 65vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.hero__imagen {
+  background: white center/cover no-repeat fixed;
+  width: 85%;
+  padding: 20px;
+  margin: 15px auto;
+}
+
+.contenedorTabla {
+  height: 300px;
+}
+
+.tabla {
+  width: 50%;
+  color: rgb(168, 171, 173);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+.tabla__encabezado {
+  font-weight: bold;
+  border: 1px solid;
+  background-color: rgb(30, 157, 236);
+  color: white;
+}
+.tabla__celdas {
+  border: 1px solid;
+  text-align: center;
+  padding: 10px;
+}
+
+form {
+  padding: 15px;
+  color: rgb(168, 171, 173);
+}
+form a {
+  color: rgb(168, 171, 173);
+  margin: 30px;
+}
+
+.nombre, .correo, .numero {
+  padding: 15px;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  color: white;
+  background-color: rgb(30, 157, 236);
+  border: none;
+}
+input[type=submit]:hover {
+  background-color: rgb(168, 171, 173);
 }
 
 /*# sourceMappingURL=style.css.map */

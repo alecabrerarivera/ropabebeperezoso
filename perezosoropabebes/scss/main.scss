@@ -1,24 +1,19 @@
 @import "./utils/variables";
 
 @import "./base/reset";
-
 @import "./base/typography";
 
+@import "./layout/header";
+@import "./layout/categorias";
+@import "./layout/productos";
+@import "./layout/nosotros";
+@import "./layout/footer";
+
 @import "./components/hero";
-
 @import "./components/tablapacks";
-
 @import "./components/form";
 
-@import "./layout/header";
 
-@import "./layout/categorias";
-
-@import "./layout/productos";
-
-@import "./layout/nosotros";
-
-@import "./layout/footer"
 
 
 
