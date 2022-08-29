@@ -12,11 +12,11 @@
 .nosotros{
     &__titulo{
         text-align: left;
-        color: $color-secundario;
+        color: map-get($map: $colores, $key:color-secundario );
     }
     &__texto{
         text-align: left;
-        color: $color-secundario;
+        color: map-get($map: $colores, $key:color-secundario );
     }
     &__imagen{
         width: 80%;

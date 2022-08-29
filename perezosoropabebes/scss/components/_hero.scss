@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     &__imagen{
-        background: white center / cover no-repeat fixed;
+        background: map-get($map: $colores, $key: color-blanco ) center / cover no-repeat fixed;
         width: 85%;
         padding: 20px;
         margin: 15px auto;

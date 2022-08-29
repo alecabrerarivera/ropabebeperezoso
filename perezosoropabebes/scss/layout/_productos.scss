@@ -29,16 +29,11 @@
             transform:scale(1.5)
         }}
     &__titulo{
-        text-align: center;
-        color: $color-primario; 
-        text-align: center; 
-        font-size: 0.9rem;
+        @include textosprod (center, $color-primario, 0.9rem);
+
     }
     &__precio{
-        text-align: center;
-        color: $color-primario; 
-        text-align: center; 
-        font-size: 0.9rem;
+        @include textosprod (center, $color-primario, 0.9rem);
     }
     }
     

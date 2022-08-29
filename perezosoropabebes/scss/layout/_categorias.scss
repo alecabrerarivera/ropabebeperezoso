@@ -23,7 +23,7 @@
     height: 300px;
     padding: 10px;
      
-    border: 2px solid $color-primario;
+    border: 2px solid map-get($map: $colores, $key:color-primario );
     border-radius: 20px;
   
     display: flex;
@@ -41,7 +41,7 @@
     }
     &__titulo{
         text-align: center;
-        color: $color-secundario; 
+        color: map-get($map: $colores, $key: color-secundario ); 
         font: size 1rem ; 
     }
        

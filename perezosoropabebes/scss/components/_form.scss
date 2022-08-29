@@ -1,15 +1,20 @@
 form{
     padding: 15px;
-    color: $color-secundario;
+    color: map-get($map: $colores, $key: color-secundario );
     a{
-        color: $color-secundario;
+        color: map-get($map: $colores, $key: color-secundario );
         margin: 30px;  
     }
    }
-.nombre,.correo,.numero{
+
+.nombre,.numero{
     padding: 15px;
   }
-  
+ 
+.correo{
+  @extend.nombre;
+  color: map-get($map: $colores, $key: color-primario )
+}
   
 input[type=text],input[type=email],input[type=tel]{
     width: 100%;
@@ -18,11 +23,11 @@ input[type=text],input[type=email],input[type=tel]{
     
 input[type=submit]{
     padding: 12px 20px;
-    color:white;
-    background-color:$color-primario;
+    color:map-get($map: $colores, $key: color-blanco);
+    background-color:map-get($map: $colores, $key: color-primario );
     border: none;
     &:hover{
-        background-color: $color-secundario
+        background-color: map-get($map: $colores, $key: color-secundario )
     }
   }
 

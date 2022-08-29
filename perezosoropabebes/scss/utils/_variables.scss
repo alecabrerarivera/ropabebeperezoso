@@ -1,3 +1,11 @@
 $color-primario: rgb(30, 157, 236);
 $color-secundario: rgb(168, 171, 173);
-$color-tercero: rgb(86, 86, 231)
+$color-tercero: rgb(86, 86, 231);
+$color-blanco: rgb(255, 255, 255);
+
+$colores: (
+    color-primario: rgb(30, 157, 236),
+    color-secundario: rgb(168, 171, 173),
+    color-tercero: rgb(86, 86, 231),
+    color-blanco: rgb(255, 255, 255),
+);

@@ -1,0 +1,5 @@
+@mixin textosprod ($text-align, $color, $font-size){
+    text-align: $text-align;
+    color: $color; 
+    font-size: $font-size;
+}

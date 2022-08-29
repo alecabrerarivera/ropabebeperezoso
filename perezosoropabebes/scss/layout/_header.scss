@@ -1,6 +1,6 @@
 header{
-    background-color:white ;
-    color: $color-primario;   
+    background-color:map-get($map: $colores, $key: color-blanco ) ;
+    color: map-get($map: $colores, $key: color-primario );   
     padding: 15px;
 
     display: flex;

@@ -1,17 +1,18 @@
 footer{
-    background-color: rgb(30, 157, 236);
+    background-color: map-get($map: $colores, $key: color-primario );
     font-size: 0.8rem;
     
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 25px;
     ul li{
         height: 20px;
-        color: white;
+        color: map-get($map: $colores, $key: color-blanco );
         margin: 5px;
     }
     a{
-        color:white
+        color:map-get($map: $colores, $key: color-blanco )
     }
           
 }
