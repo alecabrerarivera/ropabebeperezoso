@@ -26,7 +26,7 @@
         height: 150px;
         object-fit: contain;
         &:hover{
-            transform:scale(1.5)
+            transform:scale(1.5);
         }}
     &__titulo{
         @include textosprod (center, $color-primario, 0.9rem);

@@ -306,6 +306,7 @@ input[type=submit] {
 }
 input[type=submit]:hover {
   background-color: rgb(168, 171, 173);
+  transition: 1s;
 }
 
 /*# sourceMappingURL=style.css.map */
