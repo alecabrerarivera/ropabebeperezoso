@@ -161,6 +161,11 @@ header nav ul li {
   font-size: 0.9rem;
 }
 
+.encabezado {
+  color: rgb(30, 157, 236);
+  margin: 20px;
+}
+
 @media (max-width: 966px) {
   .contenedorProductos {
     grid-template-columns: 1fr;

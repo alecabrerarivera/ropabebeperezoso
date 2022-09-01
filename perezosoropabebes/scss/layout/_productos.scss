@@ -36,7 +36,11 @@
         @include textosprod (center, $color-primario, 0.9rem);
     }
     }
-    
+
+.encabezado{
+  color: map-get($map: $colores, $key: color-primario);
+  margin: 20px;
+}
 
 @media (max-width:966px){
   .contenedorProductos{
