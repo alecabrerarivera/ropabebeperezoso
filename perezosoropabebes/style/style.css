@@ -285,6 +285,11 @@ form a {
   margin: 30px;
 }
 
+label {
+  width: 240px;
+  display: inline-block;
+}
+
 .nombre, .correo, .numero {
   padding: 15px;
 }
@@ -294,7 +299,7 @@ form a {
 }
 
 input[type=text], input[type=email], input[type=tel] {
-  width: 100%;
+  width: 30%;
   padding: 12px 20px;
 }
 

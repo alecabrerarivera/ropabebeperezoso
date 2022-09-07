@@ -7,7 +7,12 @@ form{
     }
    }
 
-.nombre,.numero{
+label{
+  width: 240px;
+  display: inline-block;
+}
+
+   .nombre,.numero{
     padding: 15px;
   }
  
@@ -17,7 +22,7 @@ form{
 }
   
 input[type=text],input[type=email],input[type=tel]{
-    width: 100%;
+    width: 30%;
     padding: 12px 20px;
   }
     
